@@ -15,10 +15,11 @@ nav {
     text-align: right;
 }
 
-h1 {
+p {
     font-family: "Press Start 2P";
     color: #fff;
-    text-shadow: 5px 5px 0 #000000;;
+    text-shadow: 5px 5px 0 #000000;
+    font-size: 24px;
 }
 
 a {
@@ -55,4 +56,5 @@ a:before {
 #button:hover {
     transform: scale(1.06);
 }
+
                                                     
