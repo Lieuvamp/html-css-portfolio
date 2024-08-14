@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0984e3;
+    border-bottom: 10px solid #000000;
+    padding: 10px 20px;
+}  
+
+.header #logo {
+    font-family: "Press Start 2P";
+    color: #fff;
+    text-shadow: 4px 4px 0 #000000;
+    font-size: 24px;
+}

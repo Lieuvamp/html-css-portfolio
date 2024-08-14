@@ -3,30 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leonardo Murilo</title>
 
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/title.css">
-    <link rel="stylesheet" href="/css/subtitle.css">
-    <link rel="stylesheet" href="/css/box.css">
+    <title>Leonardo Murilo</title>
+        
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/css/components/action.css">
+    <link rel="stylesheet" href="/css/components/box.css">
+    <link rel="stylesheet" href="/css/components/button.css">
+    <link rel="stylesheet" href="/css/components/header.css">
+    <link rel="stylesheet" href="/css/components/subtitle.css">
+    <link rel="stylesheet" href="/css/components/title.css">
 
 </head>
 <body>
-    <header>
-        <p>LM.</p>
+    <header class="header">
+        <p id="logo">LM.</p>
 
         <nav>
-            <a href="" lang="en"><span></span>Skills</a>
-            <a href=""><span></span>Projetos</a>
-            <a href=""><span></span>Sobre</a>
-            <a href=""><span></span>Contatos</a>
-            <a id="button" href="" lang="en">Download CV</a>
+            <a class="action" href="" lang="en"><span></span>Skills</a>
+            <a class="action" href=""><span></span>Projetos</a>
+            <a class="action" href=""><span></span>Sobre</a>
+            <a class="action" href=""><span></span>Contatos</a>
+            <a class="button" href="" lang="en">Download CV</a>
         </nav>
     </header>
-    <div id="box">
-        <h1>Leonardo Murilo</h1>
-        <h2>FrontEnd Developer</h2>    
+    <div class="box">
+        <h1 class="title">Leonardo Murilo</h1>
+        <h2 class="subtitle">FrontEnd Developer</h2>    
     </div>
+
+    <a class="button" href="" lang="en">Download CV</a>
+    <a class="button" href="">Contatos</a>
 </body>
 </html>
