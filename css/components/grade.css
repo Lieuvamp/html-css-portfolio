@@ -1,0 +1,10 @@
+.grade {
+    background-color: #000026;
+    height: 800px;
+    border-bottom: 10px solid #000;
+}
+
+.grade h1 {
+    padding-top: 50px;
+    text-align: center;
+}
