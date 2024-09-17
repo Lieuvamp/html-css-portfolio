@@ -1,0 +1,13 @@
+.main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000026;
+}
+
+.main-footer .action {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
